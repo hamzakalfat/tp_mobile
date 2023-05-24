@@ -44,7 +44,7 @@
         android:layout_below="@+id/textView1" android:text="Type:"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <TextView android:id="@+id/continent"
+    <TextView android:id="@+id/type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView4"

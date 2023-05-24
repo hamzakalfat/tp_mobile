@@ -63,7 +63,7 @@ public class Administrateur extends AppCompatActivity implements
         int[] to = new int[] {
                 R.id.code,
                 R.id.name,
-                R.id.typeList,
+                R.id.type,
         };
 
         // create an adapter from the SimpleCursorAdapter
