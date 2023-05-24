@@ -98,12 +98,12 @@ public class Administrateur extends AppCompatActivity implements
 
             // starts a new Intent to update/delete a Country
             // pass in row Id to create the Content URI for a single row
-            Intent countryEdit = new Intent(getBaseContext(), BienEdit.class);
+            Intent bienEdit = new Intent(getBaseContext(), BienEdit.class);
             Bundle bundle = new Bundle();
             bundle.putString("mode", "update");
             bundle.putString("rowId", rowId);
-            countryEdit.putExtras(bundle);
-            startActivity(countryEdit);
+            bienEdit.putExtras(bundle);
+            startActivity(bienEdit);
 
         });
 
@@ -139,7 +139,7 @@ public class Administrateur extends AppCompatActivity implements
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_main, menu);
+        getMenuInflater().inflate(R.menu.activity_administrateur, menu);
         return true;
     }
 }
