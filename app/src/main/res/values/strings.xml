@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">mobile tp</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="add_bien">Ajouter un nouveau bien</string>
+    <string name="bien_info">Bien Information</string>
+    <string name="bien_code">Code</string>
+    <string name="bien_name">Name</string>
+    <string name="save_bien">Save</string>
+    <string name="del_bien">Delete</string>
+    <string name="choose_text">Choose Type</string>
+
+    <string-array name="type_array">
+        <item>mobilier</item>
+        <item>immobilier</item>
+    </string-array>
+
+</resources>
